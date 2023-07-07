@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    max-height: 100vh;
+    background: #F1F3F5;
+}
+header{
+    margin: 0;
+    /* margin-top: -40px; */
+}
+.Logo{
+    margin-left: 103px;
+    margin-top: 48px;
+}
+.Home{
+    display: flex;
+    gap: 20px;
+    margin-top: 54px;
+    margin-left: 702px;
+}
+.NAvbar{
+    display: flex;
+}
+.Try{
+    margin-top: 44px;
+    border: 1px solid #8743FF;
+    margin-left: 22px;
+    padding: 12px 24px;
+    border-radius: 28px;
+    background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%), #000;
+     color: white;
+}
+.cloud{
+    margin-left: 104px;
+    margin-top: 174px;
+    font-size: 30px;
+    line-height: normal;
+}
+.cloud p{
+    font-size: 16px;
+    margin-top: 27px;
+    width: 533px;
+    line-height: 25px;
+}
+.Try a{
+    color: white;
+}
+.Login a{
+    color: white;
+}
+.Upload a{
+    color: white;
+}
+.Login{
+    margin-left: 104px;
+    margin-top: 54px;
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.profile{
+    margin-left: 716px;
+    margin-top: -470px;
+}
+.Files{
+    position: absolute;
+    top:208px;left: 872px;
+}
+.Group{
+    position: absolute;
+    left: 1120px;
+    top: 160px;
+}
+.rew{
+  position: absolute;
+  left: 981px;
+  top: 560px;
+}
+  .Upload{
+    border: 1px solid #8743FF;
+    width: 144px;
+    height: 56px;
+    border-radius: 16px;
+    background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    box-shadow: 0px 15px 30px 0px rgba(20, 102, 204, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 785px;
+    top: 575px;
+}
+a{
+    text-decoration: none;
+}
+.Home a{
+    color: black;
+}
